@@ -1,0 +1,91 @@
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.Card {
+    background-color: white;
+    width: 390px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 0px 0px 40px;
+    
+}
+.Card ,h1, p {
+    text-align: center;
+}
+.Plan  {
+    background-color: hsl(225, 100%, 96%); /* bleu clair */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0;
+    gap: 15px;
+   
+}
+#music {
+    width: 40px;
+    height: 60px;
+    padding: 5px 30px;
+    border-radius: 30%;
+    margin: 7px 0px 0px;
+  }
+  
+  .plan-info {
+    display: inline;
+    flex-direction:row;
+    justify-content: center;
+    flex-grow: 1;
+    
+  }
+  
+  .plan-info h1 {
+    font-size: 16px;
+    margin: 40;
+    color: hsl(223, 47%, 23%);
+  }
+  
+  .plan-info h2 {
+    font-size: 14px;
+    margin: 5px 0 0 0;
+    color: hsl(224, 23%, 55%);
+  }
+  
+  .change-btn {
+    background: none;
+    border: none;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 23px;
+  }
+#Btn1 {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    width: 340px;
+    height: 49px;
+    border-radius: 23px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    font-style: inherit;
+    font-size: 17px;
+}
+#Btn2 {
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(224, 23%, 55%);
+    font-size: 17px;
+}
+.attribution {
+    text-align: end;
+}

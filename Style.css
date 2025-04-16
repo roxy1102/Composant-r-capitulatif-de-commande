@@ -15,8 +15,7 @@ body {
     border-radius: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    padding: 0px 0px 40px;
-    height : 90vh;
+    padding: 0px 0px 20px;
     
 }
 .Card ,h1, p {

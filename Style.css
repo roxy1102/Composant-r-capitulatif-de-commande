@@ -2,8 +2,8 @@ body {
     background-image: url(pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    margin: 0;
+    height: 99vh;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -2,7 +2,7 @@ body {
     background-image: url(pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500vh; /* prend toute la hauteur de l'écran */
+    min-height: 1000vh; /* prend toute la hauteur de l'écran */
     margin: 0;
     display: flex;
     justify-content: center;
